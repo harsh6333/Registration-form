@@ -178,7 +178,7 @@ form,.first-container {
         padding: auto;
     }
     .container{
-        height: 90vh;
+        height: 110vh;
         
     }
     
@@ -231,6 +231,6 @@ form,.first-container {
     padding: 0.2rem;
   }
   .container {
-    height: 90vh;
+    height: 112vh;
   }
 }
