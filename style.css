@@ -21,7 +21,7 @@ body {
 .container {
     box-sizing: border-box;
     height: 100vh;
-    width: 100vh;
+    
     border: 2px solid black;
 }
 
@@ -174,9 +174,14 @@ form,.first-container {
 }
 
 @media screen and (max-width:1300px) {
+    .main-container {
+        padding: auto;
+    }
     .container{
         height: 110vh;
+        
     }
+    
 }
 
 @media screen and (max-width:540px) {
@@ -185,13 +190,14 @@ form,.first-container {
         padding: auto;
         justify-content: center !important;
         align-items: center !important;
+        width: 90%;
     }
     
     .gender{
         margin: 0;
     }
     #btn {
-        margin: 3rem;
+        margin-left: 2rem;
     }
     .container{
         width: auto;
@@ -217,9 +223,10 @@ form,.first-container {
     #btn {
         font-size: 1.4rem;
     }
+    
 }
 
-@media screen and (max-width:330px) {
+@media screen and (max-width:350px) {
   body {
     padding: 0.2rem;
   }
